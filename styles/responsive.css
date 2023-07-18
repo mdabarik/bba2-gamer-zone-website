@@ -1,9 +1,117 @@
 /* For Mobile Device (small screen) */
 @media screen and (max-width: 576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-left {
+        margin-top: 2rem;
+    }
+
+    .nav-right ul {
+        margin: 2rem auto;
+        ;
+        flex-direction: column;
+    }
+
+    .nav-right ul li {
+        margin: 1rem;
+    }
+
+    .nav-right ul li a {
+        font-weight: 400;
+    }
+
+    /* banner */
+    .banner {
+        background-image: none;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-container .banner-content {
+        background-image: url("../images/Group\ 14.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 85%;
+    }
+
+    .banner-container .banner-content > div {
+        width: 70%;
+        margin: 1rem auto;
+    }
+
+    .banner-container .banner-photo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .banner-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .banner-content h1 {
+        font-size: 3rem;
+    }
+
+    .banner-content .p1,
+    .banner-content .p2,
+    .banner-content .p3 {
+        font-size: 1rem;
+    }
+
+    .banner-content button {
+        font-size: .8rem;
+        padding: 1rem 1rem;
+    }
+
+    .banner-content-btn-container {
+        margin-top: 1rem;
+    }
 
 }
 
 /* For Tablet (medium device) */
-@media screen and (min-width: 576px) and (max-width: 992) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    html {
+        font-size: 14px;
+    }
+
+    .nav-right ul li {
+        margin: 0rem;
+        margin-left: 1rem;
+    }
+
+    .nav-container {
+        margin: 0 1.2rem;
+    }
+
+    /* banner */
+    .banner {
+        background-image: none;
+    }
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-photo {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
     
+    .banner-container .banner-content {
+        background-image: url("../images/Group\ 14.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 85%;
+    }
+
+    .banner-container .banner-content > div {
+        width: 70%;
+        margin: 2rem auto;
+    }
+
 }
