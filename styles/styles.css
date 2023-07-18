@@ -125,7 +125,7 @@
 /* banner section */
 .banner {
     background-image: url("../images/Group\ 14.png");
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: 50%;
 }
 
@@ -199,3 +199,50 @@
     display: flex;
     gap: 1.3rem;
 }
+
+/* we are gamer section */
+.we-are-gamer {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.we-gamer-container {
+    display: flex;
+    align-items: center;
+}
+
+.we-gamer-container>div {
+    width: 50%;
+}
+
+.we-gamer-photo {
+    width: 100%;
+}
+
+.we-gamer-photo img {
+    width: 100%;
+}
+
+.we-gamer-content {
+    text-align: right;
+}
+
+.we-gamer-content h2 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.we-gamer-content p {
+    color: #534C64;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.we-gamer-purposes {
+    margin-top: 1rem;
+}
+
