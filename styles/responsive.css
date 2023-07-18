@@ -1,0 +1,9 @@
+/* For Mobile Device (small screen) */
+@media screen and (max-width: 576px) {
+
+}
+
+/* For Tablet (medium device) */
+@media screen and (min-width: 576px) and (max-width: 992) {
+    
+}

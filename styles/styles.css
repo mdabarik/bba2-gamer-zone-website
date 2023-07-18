@@ -1,0 +1,94 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;800&family=Poppins:wght@200;300;600;700;800&family=Work+Sans:wght@200;300;400;500;700;800&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* shared styles */
+
+/* nagivation styles */
+.navigation {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left img {
+    width: 86px;
+    height: 40px;
+}
+
+.nav-left h2 {
+    font-size: 2.5rem;
+    margin-left: .5rem;
+}
+
+.nav-left span {
+    color: #FF42A5;
+}
+
+.nav-right ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right ul li {
+    list-style: none;
+    margin-left: 2rem;
+}
+
+.nav-right ul li a {
+    text-decoration: none;
+    color: #3C354F;
+    font-weight: 500;
+}
+
+.nav-right ul li a:hover {
+    color: #3c354fc0;
+}
+
+.nav-right .follow-us-on {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
+}
+
+.fa-youtube {
+    color:red;
+    margin-left: 10px;
+}
+
+.fa-tiktok {
+    color:#010101;
+    margin-left: 10px;
+}
+
+.fa-youtube:hover {
+    color: rgba(255, 0, 0, 0.85);
+}
+
+.fa-tiktok:hover {
+    color:#010101c6;
+    margin-left: 10px;
+}
+
+
