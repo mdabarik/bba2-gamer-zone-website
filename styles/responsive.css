@@ -87,6 +87,15 @@
         margin: auto;
     }
 
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .online-games-container {
+        width: 80%;
+        margin: auto;
+    }
+
 }
 
 /* For Tablet (medium device) */
@@ -136,6 +145,15 @@
 
     .we-gamer-content {
         text-align: center;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .online-games-container {
+        width: 80%;
+        margin: auto;
     }
 
 }
