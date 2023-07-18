@@ -104,6 +104,13 @@
         text-align: center;
     }
 
+    .img1 {
+        width: 300px;
+    } 
+    .img-container {
+        margin: 2rem;
+    }
+
 }
 
 /* For Tablet (medium device) */
@@ -172,5 +179,9 @@
     .play-left {
         text-align: right;
     }
+
+    .img1 {
+        width: 400px;
+    }  
 
 }

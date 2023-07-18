@@ -371,11 +371,12 @@ footer {
     height: fit-content;
     background-color: #010101;
     color: white;
+    margin-top: 4rem;
 }
 
 .footer-container {
     max-width: 1400px;
-    margin: 4rem auto;
+    margin: auto;
     padding: 4rem;
     text-align: center;
 }
@@ -394,7 +395,6 @@ footer {
 .footer-link a {
     text-decoration: none;
     color: white;
-    padding: 1rem;
     margin: 1rem;
 }
 
@@ -424,8 +424,4 @@ footer {
     text-decoration: none;
     color: white;
     padding: 1rem;
-}
-
-.footer-copyright {
-
 }
