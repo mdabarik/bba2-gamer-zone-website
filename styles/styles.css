@@ -289,7 +289,7 @@
     height: 100%;
 }
 
-.icon {
+.card-img i {
     display: block;
     font-size: 3rem;
     position: absolute;
@@ -312,7 +312,7 @@
     z-index: 1;
 }
 
-.card-img:hover::after{
+.card-img:hover::after {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     cursor: pointer;
