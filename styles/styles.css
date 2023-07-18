@@ -344,7 +344,7 @@
 }
 
 .play-left h2 span {
-    color:#F948B2;
+    color: #F948B2;
 }
 
 .img-container {
@@ -365,6 +365,50 @@
     bottom: -10%;
     left: -15%;
 }
+
+/* types of game */
+.game-types {
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.game-types .card img {
+    width: 50px;
+    height: 50px;
+}
+
+.game-types .card {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 220px;
+    height: 80px;
+    flex-shrink: 0;
+    background: #FFF;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.game-types-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.game-types .card:hover {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #FF42A5;
+    border-radius: 3rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+
 
 /* footer section */
 footer {
@@ -388,14 +432,14 @@ footer {
 .footer-link ul {
     margin: 3rem auto;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer-link a {
     text-decoration: none;
     color: white;
-    margin: 1rem;
+    margin: 1.5rem;
 }
 
 .footer-social {
@@ -413,7 +457,8 @@ footer {
 }
 
 .footer-policy {
-    margin: 2rem auto;;
+    margin: 2rem auto;
+    ;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
