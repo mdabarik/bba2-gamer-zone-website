@@ -210,4 +210,38 @@
         font-size: 14px;
     }
 
+    .nav-container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .banner {
+        width: 95%;
+        margin: auto;
+    }
+
+    .we-are-gamer {
+        width: 95%;
+        margin: auto;
+    }
+
+    .online-games {
+        width: 95%;
+        margin: auto;
+    }
+
+    .play-game {
+        width: 95%;
+        margin: auto;
+    }
+
+    .game-types {
+        width: 95%;
+        margin: auto;
+    }
+
+    .careers {
+        width: 95%;
+        margin: auto;
+    }
 }
