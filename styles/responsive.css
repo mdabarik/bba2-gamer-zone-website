@@ -111,6 +111,19 @@
         margin: 2rem;
     }
 
+    .careers-container {
+        flex-direction: column-reverse;
+        padding-bottom: 2rem;
+    }
+
+    .careers-container .item {
+        width: 80%;
+    }
+
+    .career-content-container {
+        font-size: 12px;
+    }
+
 }
 
 /* For Tablet (medium device) */
@@ -183,5 +196,18 @@
     .img1 {
         width: 400px;
     }  
+
+    .careers-container {
+        flex-direction: column-reverse;
+        padding-bottom: 2rem;
+    }
+
+    .careers-container .item{
+        width: 80%;
+    }
+
+    .career-content-container {
+        font-size: 14px;
+    }
 
 }

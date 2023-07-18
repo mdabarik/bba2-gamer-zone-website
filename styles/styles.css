@@ -42,6 +42,22 @@
     cursor: pointer;
 }
 
+.btn-tertiary {
+    border-radius: 48px;
+    background-color: #fff;
+    color: #FF42A5;
+    padding: 1rem 2.5rem;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.btn-tertiary:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
 /* nagivation styles */
 .navigation {
     background: #FFF;
@@ -366,6 +382,62 @@
     left: -15%;
 }
 
+
+/* careers section styles */
+.careers {
+    background: url("../images/Group\ 14.png"), linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.careers-container {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.careers-container .item {
+    width: 50%;
+}
+
+.career-img img {
+    width: 100%;
+}
+
+.career-content-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.first {
+    text-align: left;
+}
+
+.second {
+    text-align: right;
+}
+
+.career-content h2 {
+    font-size: 3rem;
+    margin-bottom: .6rem;
+}
+
+.career-content>p {
+    font: 1.2rem;
+    margin-bottom: 1rem;
+    width: 90%;
+}
+
+.career-content-container p {
+    margin-bottom: .3rem;
+}
+
+
 /* types of game */
 .game-types {
     max-width: 1400px;
@@ -455,7 +527,9 @@ footer {
     font-size: 2rem;
     margin: 1rem;
 }
-
+.footer-social i:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
 .footer-policy {
     margin: 2rem auto;
     ;
