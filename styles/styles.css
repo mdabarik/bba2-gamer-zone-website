@@ -322,3 +322,46 @@
 .card-img:hover .icon {
     display: inline-block;
 }
+
+/* play game section */
+.play-game {
+    max-width: 1400px;
+    margin: 3rem auto;
+}
+
+.play-game-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.play-left {
+    text-align: right;
+}
+
+.play-left h2 {
+    font-size: 2.5rem;
+}
+
+.play-left h2 span {
+    color:#F948B2;
+}
+
+.img-container {
+    text-align: center;
+    position: relative;
+}
+
+.img1 {
+    width: 80%;
+}
+
+.img2 {
+    width: 50%;
+}
+
+.img-container .img2 {
+    position: absolute;
+    bottom: -10%;
+    left: -15%;
+}

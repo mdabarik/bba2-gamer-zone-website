@@ -97,6 +97,13 @@
         margin: auto;
     }
 
+    .play-game-container {
+        flex-direction: column;
+    }
+    .play-left {
+        text-align: center;
+    }
+
 }
 
 /* For Tablet (medium device) */
@@ -156,6 +163,14 @@
     .online-games-container {
         width: 80%;
         margin: auto;
+    }
+
+    .play-game-container {
+        flex-direction: column;
+    }
+
+    .play-left {
+        text-align: right;
     }
 
 }
