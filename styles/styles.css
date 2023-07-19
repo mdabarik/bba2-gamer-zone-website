@@ -225,6 +225,7 @@
 .we-gamer-container {
     display: flex;
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 .we-gamer-container>div {
@@ -265,7 +266,7 @@
 /* online games section */
 .online-games {
     max-width: 1400px;
-    margin: 2.5rem auto;
+    margin: 3rem auto;
 }
 
 .online-games h2 {
@@ -287,6 +288,7 @@
 }
 
 .card-container {
+    margin-bottom: 5rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
@@ -342,7 +344,8 @@
 /* play game section */
 .play-game {
     max-width: 1400px;
-    margin: 3rem auto;
+    height: fit-content;
+
 }
 
 .play-game-container {
@@ -357,15 +360,21 @@
 
 .play-left h2 {
     font-size: 2.5rem;
+    width: 300px;
 }
 
 .play-left h2 span {
     color: #F948B2;
 }
 
+.play-left p {
+    width: 310px;
+}
+
 .img-container {
     text-align: center;
     position: relative;
+    margin-bottom: 5rem;
 }
 
 .img1 {

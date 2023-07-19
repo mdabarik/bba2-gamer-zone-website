@@ -123,6 +123,17 @@
     .career-content-container {
         font-size: 12px;
     }
+    .play-left {
+        text-align: center;
+    }
+    .play-left h2 {
+        font-size: 30px;
+        width: 250px;
+    }
+    .play-left p {
+        margin-bottom: 1rem;
+        width: 250px;
+    }
 
 }
 
@@ -244,4 +255,19 @@
         width: 95%;
         margin: auto;
     }
+
+    .play-left {
+        text-align: center;
+    }
+
+
+    .play-left h2 {
+        font-size: 35px;
+        margin-bottom: 1rem;
+    }
+
+    .play-left p {
+        margin-bottom: 1rem;
+    }
+    
 }
