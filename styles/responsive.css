@@ -100,13 +100,15 @@
     .play-game-container {
         flex-direction: column;
     }
+
     .play-left {
         text-align: center;
     }
 
     .img1 {
         width: 260px;
-    } 
+    }
+
     .img-container {
         margin: 2rem;
     }
@@ -132,13 +134,16 @@
         font-size: 1rem;
         padding: .5rem 1.3rem;
     }
+
     .play-left {
         text-align: center;
     }
+
     .play-left h2 {
         font-size: 30px;
         width: 250px;
     }
+
     .play-left p {
         margin-bottom: 1rem;
         width: 250px;
@@ -174,9 +179,46 @@
         margin: .5rem;
     }
 
-    
 
-    
+    .game-types-container {
+        width: 90%;
+        margin: 3rem auto;
+    }
+
+    .game-types-container .card {
+        max-width: 9rem;
+        gap: 10px;
+    }
+
+    .game-types .card {
+        padding: 0px;
+        margin: 0px;
+        border: none;
+        width: 110px;
+        height: auto;
+    }
+
+
+    .games-types .card:hover {
+        border: none;
+        gap: 0;
+        border: 0px solid transparent;
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+
+    .game-types-container .card p {
+        font-size: 8px;
+    }
+
+    .game-types-container .card img {
+        width: 30px;
+        height: 30px;
+        margin-right: 0;
+    }
+
+
 
 }
 
@@ -249,14 +291,14 @@
 
     .img1 {
         width: 400px;
-    }  
+    }
 
     .careers-container {
         flex-direction: column-reverse;
         padding-bottom: 2rem;
     }
 
-    .careers-container .item{
+    .careers-container .item {
         width: 80%;
     }
 
@@ -312,5 +354,5 @@
     .play-left p {
         margin-bottom: 1rem;
     }
-    
+
 }
