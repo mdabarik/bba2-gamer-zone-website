@@ -344,8 +344,8 @@
 /* play game section */
 .play-game {
     max-width: 1400px;
+    margin: auto;
     height: fit-content;
-
 }
 
 .play-game-container {
